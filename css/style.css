@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'TT Hoves', sans-serif;
+}
+
+section {
+    padding: 0 calc(10.6vw - 16px);
+}
+
+h1 {
+    font-family: 'Chava', sans-serif;
+    font-size: calc(4.2vw + 26px);
+    line-height: 110%;
+    margin-bottom: 40px;
+}
+
+section.hello {
+    background-image: url('../img/html_css_js.png');
+    background-repeat: no-repeat;
+    background-position: top calc(4.9vw + 59px) right calc(6.1vw - 20px);
+    background-size: calc(23.9vw + 89px);
+}
+
+h2 {
+    font-size: calc(2.7vw + 24px);
+    margin-top: calc(11vw + 18px);
+    margin-bottom: calc(5.5vw + 19px);
+    font-weight: 500;
+    line-height: 117%;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-top: 40px;
+    height: calc(1.2vw + 25px);
+}
+
+.courseData {
+    margin-top: calc(6.3vw + 4px);
+    margin-bottom: calc(3.1vw + 36px);
+    font-size: calc(0.6vw + 14px);
+    line-height: 140%;
+
+    display: flex;
+    gap: 30px 130px;
+    flex-wrap: wrap;
+}
+
+.courseData .value {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+    font-size: calc(1vw + 14px);
+    line-height: 140%;
+}
+
+.buttons {
+    margin-top: 20px;
+
+    display: flex;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+
+button.purple {
+    width: 328px;
+    border-radius: 12px;
+    padding: 20px 0;
+    background-color: #6E3ABA;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 118%;
+    color: white;
+    border: 0;
+}
+
+button.white {
+    width: 328px;
+    border-radius: 12px;
+    padding: 20px 0;
+    background-color: white;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 118%;
+    color: #6E3ABA;
+    border: 1px solid #6E3ABA;
+}
+
+
+.students {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(1.3vw + 35px) 70px;
+}
+
+.student {
+    flex-basis: 450px;
+    flex-grow: 1;
+}
+
+.student img {
+    width: 210px;
+}
+
+.student h4 {
+    font-size: calc(1vw + 14px);
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.student p {
+    font-weight: 400;
+}
+
+.purpleBg {
+    background-color: #6E3ABA;
+    padding-top: calc(4.4vw + 23px);
+    padding-bottom: calc(4.1vw + 5px);
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: calc(2vw + 26px); 
+    font-weight: 700;
+    line-height: 117%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.timer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+    color: #2F1D4E;
+    margin-top: calc(4.1vw + 5px);
+    /*  20 57 */
+    margin-bottom: calc(4.1vw + 5px);
+}
+
+.num {
+    font-family: Chava;
+    font-size: calc(12vw + 12px);
+    line-height: 107%;
+}
+
+.desc {
+    font-size: calc(2vw + 3px);
+    font-weight: 500;
+    line-height: 117%;
+    text-transform: uppercase;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
