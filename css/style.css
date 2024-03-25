@@ -151,10 +151,13 @@ h3 {
 }
 
 .num {
-    font-family: Chava;
+    font-family: Chava, sans-serif;
     font-size: calc(12vw + 12px);
     line-height: 107%;
 }
+
+
+
 
 .desc {
     font-size: calc(2vw + 3px);
